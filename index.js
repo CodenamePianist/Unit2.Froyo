@@ -3,3 +3,5 @@
 // This string of answers is then split into an array of strings.
 // This array will be added to an object. In this object the key-value pair is the flavor and how many times it has come up.
 // Organize the logic into a function.
+// The result will be shown in the console to the user.
+
