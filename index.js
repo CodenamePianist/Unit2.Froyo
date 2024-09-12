@@ -16,7 +16,7 @@ const flavorArray = flavorInput.split(",");
  * @returns {object} The flavors and how many times they were entered
  */
 function getFlavors(userFlavors) {
-    // Creating an empty body named flavors
+    // Creating an empty object named flavors
     const flavors = {};
     // This for loop iterates thru the array in flavorArray
     for (let i = 0; i < userFlavors.length; i++) {
