@@ -5,6 +5,8 @@
 // Organize the logic into a function.
 // The result will be shown in the console to the user.
 
-let chosenFlavors = prompt("What flavors would you like?", "vanilla,vanilla,vanilla,strawberry,coffee,coffee");
+const flavorInput = prompt("What flavors would you like?", "vanilla,vanilla,vanilla,strawberry,coffee,coffee");
 
-console.log(typeof chosenFlavors);
+const stringArray = flavorInput.split(",");
+
+console.log(stringArray);
